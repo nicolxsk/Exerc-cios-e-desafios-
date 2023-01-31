@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+background-color: antiquewhite;
+align-items: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    background-color: aqua;
+    border: -1em;
+    border-radius: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    margin-top: 0.2cm;
+}

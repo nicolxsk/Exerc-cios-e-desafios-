@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+            mark {
+                background-color: lime;
+            }
+
+    </style>
+    <!--Esse modo serve para marcar com a mesma cor todas as utilizações da tag <mark>-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase <b>temos um termo em negrito</b> usando a tag B (não semântica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântia)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase usando</em> a tag EM (semântica)</p>
+    <h2>Marcação</h2>
+    <p>Nesta frase, <mark style="background-color: lime;">temos um termo sendo marcado</mark></p>
+    <p>Agora, nessa aqui estamos <mark>marcando também</mark></p>
+    <p>Já nesta, temos um termo <small>pequeno</small></p>
+    <p>Continuandos <del>mesmo com dor</del> nessa tarefa ardua</p>
+    <p>Agora, vamos marcar um texto inserido, <ins>tipo esse aqui</ins></p>
+    <p>X <sub>2</sub></p>
+    <p>X <sup>2</sup></p>
+    <br>
+    <h1>Exemplo de código em Python</h1>
+    <pre>
+        <code>
+            num = int (input ( 'Digite um número' )) if num % 2 == 0:
+                print(f'0 número {num} é par')
+            else:
+                print(f'0 número {num} é impar')
+              print('FIM DO PROGRAMA')
+        </code>
+    </pre>
+
+    <p><strong><em>teste de junção de tags</em></strong></p>
+    <br>
+    <p>Eu estou estudando <abbr title="Hyper Text Markup Lenguage">HTML</abbr> para criar sites</p>
+    <br>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    
+</body>
+</html>

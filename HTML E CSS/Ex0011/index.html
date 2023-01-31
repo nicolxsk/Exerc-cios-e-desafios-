@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<picture>
+    <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+    <img src="Imagens/foto-g.png" alt="">
+</picture>
+
+<h1>Reproduçao de audio</h1>
+<audio src="audioaqui" controls autoplay></audio>
+<!--MP3 WAV OGG / https://handbrake.fr/-->
+
+<audio preload="metadata" autoplay controls loop> 
+    <source src="midia aqui" type="audio/mpeg">
+    <source src="midia aqui" type="audio/ogg">
+    <source src="midia aqui" type="audio/wav">
+    <p>Infelizmente seu navegador..... <a href="link para baixar">clique aqui para baixar</a></p>
+</audio>
+
+<h1>Inserindo vídeos hospedados localmente</h1>
+<p>Este video está hospedado no meu proprio servidor</p>
+
+<video width="tamanho" poster="" controls autoplay loop>
+
+<source src="local do video" type="video/mp4">
+<source src="local do video" type="video/m4v">
+<source src="local do video" type="video/webm">
+<source src="local do video" type="video/ogv">
+</video>
+<!--midias / ogv mp4 m4v webm-->
+</body>
+</html>
